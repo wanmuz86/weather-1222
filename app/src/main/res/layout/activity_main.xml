@@ -15,6 +15,7 @@
       <EditText
           android:layout_width="0dp"
           android:hint="Enter City name"
+          android:id="@+id/cityEditText"
           android:layout_height="wrap_content"
          android:layout_weight="2"/>
       <Button
@@ -29,6 +30,7 @@
        android:layout_gravity="center"
        android:layout_width="150dp"
        android:layout_height="150dp"
+       android:id="@+id/weatherImageView"
       android:src="@drawable/ic_launcher_background"/>
 
    <TextView
@@ -49,12 +51,14 @@
        android:gravity="center"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
+       android:id="@+id/humidityTextView"
        android:text="Humidity"
        android:textSize="18sp"/>
    <TextView
        android:gravity="center"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
+       android:id="@+id/pressureTextView"
        android:text="Pressure"
        android:textSize="18sp"/>
    <LinearLayout
@@ -67,6 +71,7 @@
           android:layout_height="wrap_content"
           android:layout_weight="1"
           android:gravity="center"
+          android:id="@+id/sunsetTextView"
           android:text="Sunset"
           android:textSize="18sp"/>
       <TextView
@@ -74,6 +79,7 @@
           android:layout_height="wrap_content"
           android:layout_weight="1"
           android:gravity="center"
+          android:id="@+id/sunriseTextView"
           android:text="Sunrise"
           android:textSize="18sp"/>
    </LinearLayout>
